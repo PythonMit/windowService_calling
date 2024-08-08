@@ -1,0 +1,25 @@
+ 
+ 
+ #create new window service 
+	description: window service for create log file every 5 second.
+	referance :https://www.c-sharpcorner.com/article/create-windows-services-in-c-sharp/
+	
+
+step:1 
+		open cmd prompt in admin user.
+step:2
+		change the path on cmd is C:\Windows\Microsoft.NET\Framework\v4.0.30319 
+step:3
+		give the command InstallUtil.exe + Your copied path + \your service name + .exe
+		i.e:: InstallUtil.exe C:\Users\NS\Desktop\service_calling\bin\Debug\service_calling.exe
+step:4
+		Press the Window key + R.
+		Type services.msc
+		Find your Service.
+		
+step:5
+		Uninstalling a Windows Service
+		If you want to uninstall your service, fire the below command.
+
+		Syntax InstallUtil.exe -u + Your copied path + \your service name + .exe
+		Our path InstallUtil.exe -u C:\Users\Faisal-Pathan\source\repos\MyFirstService\MyFirstService\bin\Debug\MyFirstService.exe
