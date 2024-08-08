@@ -39,7 +39,7 @@
             // 
             // serviceInstaller1
             // 
-            this.serviceInstaller1.DisplayName = "MyFirstDemo";
+            this.serviceInstaller1.DisplayName = "MyFirstDemo"; // service name
             this.serviceInstaller1.Description = "My First service demo";
             this.serviceInstaller1.ServiceName = "Service1";
             // 
